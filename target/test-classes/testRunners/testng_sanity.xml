@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HubSpot Test Sanity Suite">
+<!--  
+<listeners>
+<listener class-name="com.qa.hubspot.listeners.pdfListeners"/>
+</listeners>
+-->
+<listeners>
+<listener class-name="com.qa.hubspot.listeners.ExtentReportListeners"/>
+</listeners>
+  <test thread-count="5" name="HubSpot App Sanity Test cases">
+    <classes>
+     <class name="com.qa.hubspot.tests.LoginPageTest"/>
+     <!--  <class name="com.qa.hubspot.tests.HomePageTest"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

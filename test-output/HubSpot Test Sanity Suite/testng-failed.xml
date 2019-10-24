@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HubSpot Test Sanity Suite]">
+  <listeners>
+    <listener class-name="com.qa.hubspot.listeners.pdfListeners"/>
+  </listeners>
+  <test thread-count="5" name="HubSpot App Sanity Test cases">
+    <classes>
+      <class name="com.qa.hubspot.tests.LoginPageTest"/>
+      <class name="com.qa.hubspot.tests.HomePageTest"/>
+    </classes>
+  </test> <!-- HubSpot App Sanity Test cases -->
+  <test name="HubSpot App Sanity Test cases(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePageAccountNameTest"/>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- HubSpot App Sanity Test cases(failed) -->
+</suite> <!-- Failed suite [HubSpot Test Sanity Suite] -->
