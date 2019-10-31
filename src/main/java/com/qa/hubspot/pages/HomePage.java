@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//h1[@class='private-page__title']")
 	WebElement homePageHeader;
 
-	@FindBy(xpath = "//span[@class='account-name ']")
+	@FindBy(xpath = "//div[@class='navAccount-accountName']")
 	WebElement accountName;
 
 	@FindBy(id = "nav-primary-contacts-branch")

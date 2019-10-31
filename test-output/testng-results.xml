@@ -1,61 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94328" started-at="2019-10-22T16:11:37Z" finished-at="2019-10-22T16:13:11Z">
+  <suite name="Default suite" duration-ms="93249" started-at="2019-10-31T15:08:31Z" finished-at="2019-10-31T15:10:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="94328" started-at="2019-10-22T16:11:37Z" finished-at="2019-10-22T16:13:11Z">
-      <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="setUp" is-config="true" duration-ms="18030" started-at="2019-10-22T21:41:37Z" finished-at="2019-10-22T21:41:55Z">
+    <test name="Default test" duration-ms="93249" started-at="2019-10-31T15:08:31Z" finished-at="2019-10-31T15:10:04Z">
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="setUp" is-config="true" duration-ms="29009" started-at="2019-10-31T20:38:31Z" finished-at="2019-10-31T20:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="verifyLoginPageTitleTest" duration-ms="268" started-at="2019-10-22T21:41:55Z" finished-at="2019-10-22T21:41:55Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="verifyHomePageTitleTest" duration-ms="2860" started-at="2019-10-31T20:39:00Z" finished-at="2019-10-31T20:39:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="1245" started-at="2019-10-22T21:41:55Z" finished-at="2019-10-22T21:41:57Z">
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="930" started-at="2019-10-31T20:39:03Z" finished-at="2019-10-31T20:39:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="setUp" is-config="true" duration-ms="13878" started-at="2019-10-22T21:41:57Z" finished-at="2019-10-22T21:42:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="setUp" is-config="true" duration-ms="25177" started-at="2019-10-31T20:39:04Z" finished-at="2019-10-31T20:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="verifySignUpLinkTest" duration-ms="960" started-at="2019-10-22T21:42:10Z" finished-at="2019-10-22T21:42:11Z">
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="verifyHomePageHeaderTest" duration-ms="2837" started-at="2019-10-31T20:39:29Z" finished-at="2019-10-31T20:39:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="1191" started-at="2019-10-22T21:42:11Z" finished-at="2019-10-22T21:42:13Z">
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="744" started-at="2019-10-31T20:39:32Z" finished-at="2019-10-31T20:39:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="setUp" is-config="true" duration-ms="13007" started-at="2019-10-22T21:42:13Z" finished-at="2019-10-22T21:42:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="setUp" is-config="true" duration-ms="24816" started-at="2019-10-31T20:39:33Z" finished-at="2019-10-31T20:39:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTestWithCorrectCredentialsTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="loginTestWithCorrectCredentialsTest" duration-ms="11523" started-at="2019-10-22T21:42:26Z" finished-at="2019-10-22T21:42:37Z">
+        <test-method status="FAIL" signature="verifyHomePageAccountNameTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="verifyHomePageAccountNameTest" duration-ms="5459" started-at="2019-10-31T20:39:58Z" finished-at="2019-10-31T20:40:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.qa.hubspot.tests.HomePageTest.verifyHomePageAccountNameTest(HomePageTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTestWithCorrectCredentialsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="1248" started-at="2019-10-22T21:42:37Z" finished-at="2019-10-22T21:42:39Z">
+        </test-method> <!-- verifyHomePageAccountNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="1229" started-at="2019-10-31T20:40:03Z" finished-at="2019-10-31T20:40:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="setUp" is-config="true" duration-ms="18170" started-at="2019-10-22T21:42:39Z" finished-at="2019-10-22T21:42:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTestWithInCorrectCredentialsTest()[pri:4, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="loginTestWithInCorrectCredentialsTest" duration-ms="13441" started-at="2019-10-22T21:42:57Z" finished-at="2019-10-22T21:43:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestWithInCorrectCredentialsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@290dbf45]" name="tearDown" is-config="true" duration-ms="1067" started-at="2019-10-22T21:43:10Z" finished-at="2019-10-22T21:43:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
